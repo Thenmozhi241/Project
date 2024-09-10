@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(14, 13, 13);
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .cta {
+            background-color: #ff5733;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta:hover {
+            background-color: #ff2e00;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .feature {
+            max-width: 300px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .feature img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            margin: 20px 0 10px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .feature p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #282828;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .hero p {
+                font-size: 1.2em;
+            }
+
+            .cta {
+                font-size: 1em;
+                padding: 10px 25px;
+            }
+
+            .features {
+                flex-direction: column;
+            }
+
+            .feature {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        
+       
+       
+        <img src="https://th.bing.com/th/id/OIP.Afmj5pPtB7KyItDOOeRHYwHaE8?w=282&h=187&c=7&r=0&o=5&pid=1.7" width="1020" height="1400">
+        <p>Exclusive shoes </p>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="https://th.bing.com/th/id/OIP.4x7EGz704ZNuo8bo5x6bJAAAAA?rs=1&pid=ImgDetMain" alt="Feature 1">
+            <h3>Product one</h3>
+            <p>Widely used with differnt color.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.squarespace-cdn.com/content/v1/5e10f555f51cd16ca72b83f8/1586689385550-6LWCNLJFBD1HVQMW191T/sports-shoe-product-photography.jpg" alt="Feature 2">
+            <h3>Product two</h3>
+            <p>Flexible shoe with exclusive design.</p>
+        </div>
+        <div class="feature">
+            <img src="https://th.bing.com/th/id/OIP.UcUSTZmPgjBdtVp6ArUQ8gHaHa?w=207&h=206&c=7&r=0&o=5&pid=1.7" alt="Feature 3">
+            <h3>Product three</h3>
+            <p>Comfortable to wear and use.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shoe Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
